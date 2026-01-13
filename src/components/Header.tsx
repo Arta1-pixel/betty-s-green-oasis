@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Leaf, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logoImage from "@/assets/logo-betty-plantas.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,11 +31,12 @@ const Header = () => {
     >
       <div className="container flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2 group">
-          <Leaf className={`w-7 h-7 transition-colors ${isScrolled ? "text-primary" : "text-background"}`} />
-          <span className={`font-display font-bold text-xl transition-colors ${isScrolled ? "text-foreground" : "text-background"}`}>
-            Betty Plantas
-          </span>
+        <a href="#" className="flex items-center">
+          <img 
+            src={logoImage} 
+            alt="Betty Plantas - Cactus, Suculentas y Talleres" 
+            className={`transition-all duration-300 ${isScrolled ? "h-12" : "h-16 md:h-20 brightness-0 invert"}`}
+          />
         </a>
 
         {/* Desktop Navigation */}
