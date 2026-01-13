@@ -35,7 +35,7 @@ const Header = () => {
           <img 
             src={logoImage} 
             alt="Betty Plantas - Cactus, Suculentas y Talleres" 
-            className={`transition-all duration-300 ${isScrolled ? "h-12" : "h-16 md:h-20 brightness-0 invert"}`}
+            className={`transition-all duration-300 ${isScrolled ? "h-12" : "h-16 md:h-20"}`}
           />
         </a>
 
