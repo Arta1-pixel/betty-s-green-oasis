@@ -3,12 +3,12 @@ import { MessageCircle, ExternalLink } from "lucide-react";
 import catalogImage from "@/assets/plants-catalog.jpg";
 
 const WHATSAPP_NUMBER = "5217441234567";
-const WHATSAPP_MESSAGE = "Hola Betty, me gustaría ver el catálogo de plantas disponibles";
+const WHATSAPP_MESSAGE = "Hola Anini, me gustaría ver el catálogo de cactus disponibles";
 
 const plantTypes = [
-  { name: "Cactus", description: "Variedad de especies resistentes y decorativas" },
-  { name: "Suculentas", description: "Plantas compactas ideales para interiores" },
-  { name: "Plantas de ornato", description: "Opciones elegantes para decorar espacios" },
+  { name: "Cactáceas", description: "Gran variedad de especies resistentes y decorativas" },
+  { name: "Adenium Obesum", description: "Rosas del desierto en diferentes colores y variedades" },
+  { name: "Injertos de Adenium", description: "Variedades únicas injertadas con flores espectaculares" },
 ];
 
 const CatalogSection = () => {
@@ -23,7 +23,7 @@ const CatalogSection = () => {
             <div className="relative rounded-3xl overflow-hidden shadow-elevated">
               <img
                 src={catalogImage}
-                alt="Suculentas variadas en macetas de terracota listas para entrega"
+                alt="Cactáceas y Adenium Obesum listos para entrega"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/40 to-transparent" />
@@ -47,7 +47,7 @@ const CatalogSection = () => {
                 Opciones para casa, oficina o regalo
               </h2>
               <p className="text-lg text-muted-foreground">
-                Ofrecemos cactus, suculentas y plantas de ornato listas para entrega en Acapulco. Puedes solicitar fotos actualizadas del catálogo por mensaje directo.
+                Ofrecemos cactáceas y variedades de injertos de Adenium Obesum listas para entrega en Acapulco. Puedes solicitar fotos actualizadas del catálogo por mensaje directo.
               </p>
             </div>
 

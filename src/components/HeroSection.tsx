@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-plants.jpg";
 
 const WHATSAPP_NUMBER = "5217441234567"; // Placeholder - replace with actual number
-const WHATSAPP_MESSAGE = "Hola Betty, me interesa conocer tu catálogo de plantas";
+const WHATSAPP_MESSAGE = "Hola Anini, me interesa conocer tu catálogo de cactus";
 
 const HeroSection = () => {
   const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Colección de cactus y suculentas en macetas de terracota"
+          alt="Colección de cactáceas y Adenium Obesum en macetas"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/60 to-transparent" />
@@ -28,7 +28,7 @@ const HeroSection = () => {
           </span>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-background leading-tight">
-            Cactus, suculentas y plantas de ornato
+            Cactáceas y Adenium Obesum
           </h1>
           
           <p className="text-xl md:text-2xl text-background/90 font-light">
@@ -36,7 +36,7 @@ const HeroSection = () => {
           </p>
           
           <p className="text-lg text-background/80 max-w-lg">
-            Soy <span className="font-semibold text-accent">Betty</span> y ofrezco cactus, suculentas y plantas de ornato cultivadas con dedicación. También imparto cursos y talleres para que aprendas a cuidarlas y reproducirlas de forma sencilla.
+            Soy <span className="font-semibold text-accent">Anini</span> y ofrezco cactáceas y variedades de injertos de Adenium Obesum cultivados con dedicación. También imparto cursos y talleres para que aprendas a cuidarlos y reproducirlos de forma sencilla.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">

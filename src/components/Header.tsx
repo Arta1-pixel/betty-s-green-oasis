@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logoImage from "@/assets/logo-betty-plantas.png";
+import logoImage from "@/assets/logo-cactus-anini.jpg";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,7 +16,7 @@ const Header = () => {
   }, []);
 
   const navItems = [
-    { label: "Plantas", href: "#catalogo" },
+    { label: "Catálogo", href: "#catalogo" },
     { label: "Talleres", href: "#talleres" },
     { label: "Preguntas", href: "#faq" },
   ];
@@ -34,8 +34,8 @@ const Header = () => {
         <a href="#" className="flex items-center">
           <img 
             src={logoImage} 
-            alt="Betty Plantas - Cactus, Suculentas y Talleres" 
-            className={`transition-all duration-300 ${isScrolled ? "h-12" : "h-16 md:h-20"}`}
+            alt="Los Cactus de Anini - Cactáceas y Adenium Obesum" 
+            className={`transition-all duration-300 rounded-lg ${isScrolled ? "h-12" : "h-16 md:h-20"}`}
           />
         </a>
 

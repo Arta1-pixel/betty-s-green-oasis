@@ -1,4 +1,4 @@
-import logoImage from "@/assets/logo-betty-plantas.png";
+import logoImage from "@/assets/logo-cactus-anini.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,8 +10,8 @@ const Footer = () => {
           <a href="#" className="flex items-center">
             <img 
               src={logoImage} 
-              alt="Betty Plantas" 
-              className="h-12"
+              alt="Los Cactus de Anini" 
+              className="h-12 rounded-lg"
             />
           </a>
 
@@ -28,7 +28,7 @@ const Footer = () => {
           </nav>
 
           <p className="text-sm">
-            © {currentYear} Betty Plantas. Acapulco, Guerrero.
+            © {currentYear} Los Cactus de Anini. Acapulco, Guerrero.
           </p>
         </div>
       </div>
