@@ -11,7 +11,7 @@ const Footer = () => {
             <img 
               src={logoImage} 
               alt="Betty Plantas" 
-              className="h-12 brightness-0 invert"
+              className="h-12"
             />
           </a>
 
