@@ -19,7 +19,7 @@ const faqs = [
     answer: "¡Por supuesto! Solo envíame fotos de tu espacio y te sugiero las plantas más adecuadas según la luz, ventilación y tu nivel de experiencia."
   },
   {
-    question: "¿Qué tan seguido debo regar los cactus y suculentas?",
+    question: "¿Qué tan seguido debo regar los cactus?",
     answer: "En general, una vez por semana o cada 10 días es suficiente. Depende de la época del año y la ubicación. En los talleres explico cómo identificar cuándo necesitan agua."
   },
   {
