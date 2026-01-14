@@ -35,7 +35,7 @@ const Header = () => {
           <img 
             src={logoImage} 
             alt="Los Cactus de Anini - Cactáceas y Adenium Obesum" 
-            className={`transition-all duration-300 rounded-lg ${isScrolled ? "h-12" : "h-16 md:h-20"}`}
+            className={`transition-all duration-300 rounded-lg ${isScrolled ? "h-16" : "h-20 md:h-28"}`}
           />
         </a>
 
