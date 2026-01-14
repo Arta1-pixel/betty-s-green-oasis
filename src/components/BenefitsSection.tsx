@@ -9,7 +9,7 @@ const benefits = [
   {
     icon: Droplets,
     title: "Bajo mantenimiento",
-    description: "Cactus y suculentas resistentes que requieren pocos cuidados y riegos espaciados."
+    description: "Cactus resistentes que requieren pocos cuidados y riegos espaciados."
   },
   {
     icon: HandHeart,
