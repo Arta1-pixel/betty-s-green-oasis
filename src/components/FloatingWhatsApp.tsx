@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5217441234567";
-const WHATSAPP_MESSAGE = "Hola Betty, me interesa conocer más sobre tus plantas";
+const WHATSAPP_NUMBER = "5217442230279";
+const WHATSAPP_MESSAGE = "Hola Anini, me interesa conocer más sobre tus plantas";
 
 const FloatingWhatsApp = () => {
   const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;

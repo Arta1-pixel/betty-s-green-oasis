@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Mail, MapPin } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5217441234567";
-const WHATSAPP_MESSAGE = "Hola Betty, me gustaría más información";
-const EMAIL = "betty@ejemplo.com";
+const WHATSAPP_NUMBER = "5217442230279";
+const WHATSAPP_MESSAGE = "Hola Anini, me gustaría más información";
+const EMAIL = "info@loscactus.mx";
 
 const CTASection = () => {
   const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;

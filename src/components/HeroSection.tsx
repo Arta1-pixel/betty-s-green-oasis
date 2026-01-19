@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-plants.jpg";
 
-const WHATSAPP_NUMBER = "5217441234567"; // Placeholder - replace with actual number
+const WHATSAPP_NUMBER = "5217442230279";
 const WHATSAPP_MESSAGE = "Hola Anini, me interesa conocer tu catálogo de cactus";
 
 const HeroSection = () => {
