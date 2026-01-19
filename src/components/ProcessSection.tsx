@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5217441234567";
-const WHATSAPP_MESSAGE = "Hola Betty, quiero hacer un pedido";
+const WHATSAPP_NUMBER = "5217442230279";
+const WHATSAPP_MESSAGE = "Hola Anini, quiero hacer un pedido";
 
 const steps = [
   {
