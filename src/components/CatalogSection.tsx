@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, ExternalLink } from "lucide-react";
-import catalogImage from "@/assets/plants-catalog.jpg";
+import catalogImage from "@/assets/catalog-cactus.png";
 
 const WHATSAPP_NUMBER = "5217442230279";
 const WHATSAPP_MESSAGE = "Hola Anini, me gustaría ver el catálogo de cactus disponibles";
