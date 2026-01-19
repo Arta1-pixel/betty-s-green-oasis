@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, Users, Clock, CheckCircle2 } from "lucide-react";
-import workshopImage from "@/assets/workshop.jpg";
+import workshopImage from "@/assets/workshop-cactus.png";
 
 const WHATSAPP_NUMBER = "5217442230279";
 const WHATSAPP_MESSAGE = "Hola Anini, me interesa inscribirme a un taller de plantas";
