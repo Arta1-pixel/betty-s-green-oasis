@@ -1,4 +1,5 @@
 import logoImage from "@/assets/logo-cactus-anini.jpg";
+import { Instagram } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -15,7 +16,7 @@ const Footer = () => {
             />
           </a>
 
-          <nav className="flex flex-wrap justify-center gap-6 text-sm">
+          <nav className="flex flex-wrap justify-center items-center gap-6 text-sm">
             <a href="#catalogo" className="hover:text-background transition-colors">
               Catálogo
             </a>
@@ -24,6 +25,15 @@ const Footer = () => {
             </a>
             <a href="#faq" className="hover:text-background transition-colors">
               Preguntas frecuentes
+            </a>
+            <a 
+              href="https://www.instagram.com/el_jardin_de_mis_adenium?utm_source=qr&igsh=dGJzMWlwb2c0dW1r" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-background transition-colors"
+              aria-label="Instagram"
+            >
+              <Instagram size={20} />
             </a>
           </nav>
 
