@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import faqImage from "@/assets/faq-adenium.jpg";
 
 const faqs = [
   {
@@ -35,7 +36,7 @@ const faqs = [
 const FAQSection = () => {
   return (
     <section id="faq" className="py-20 bg-background">
-      <div className="container max-w-3xl">
+      <div className="container">
         <div className="text-center mb-12">
           <span className="text-accent font-medium text-sm uppercase tracking-wider">
             Resuelve tus dudas
@@ -45,22 +46,33 @@ const FAQSection = () => {
           </h2>
         </div>
 
-        <Accordion type="single" collapsible className="space-y-4">
-          {faqs.map((faq, index) => (
-            <AccordionItem
-              key={index}
-              value={`item-${index}`}
-              className="border border-border rounded-xl px-6 bg-card data-[state=open]:shadow-soft transition-shadow"
-            >
-              <AccordionTrigger className="text-left font-display font-semibold text-foreground hover:no-underline py-5">
-                {faq.question}
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground pb-5 leading-relaxed">
-                {faq.answer}
-              </AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="relative rounded-2xl overflow-hidden shadow-soft">
+            <img 
+              src={faqImage} 
+              alt="Injertos de adenium obesum con flores coloridas" 
+              className="w-full h-auto object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          </div>
+
+          <Accordion type="single" collapsible className="space-y-4">
+            {faqs.map((faq, index) => (
+              <AccordionItem
+                key={index}
+                value={`item-${index}`}
+                className="border border-border rounded-xl px-6 bg-card data-[state=open]:shadow-soft transition-shadow"
+              >
+                <AccordionTrigger className="text-left font-display font-semibold text-foreground hover:no-underline py-5">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground pb-5 leading-relaxed">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
       </div>
     </section>
   );
