@@ -3,7 +3,7 @@ import { MessageCircle, Mail, MapPin } from "lucide-react";
 
 const WHATSAPP_NUMBER = "5217442230279";
 const WHATSAPP_MESSAGE = "Hola Anini, me gustaría más información";
-const EMAIL = "contacto@loscactus.mx";
+const EMAIL = "info@loscactus.mx";
 
 const CTASection = () => {
   const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
